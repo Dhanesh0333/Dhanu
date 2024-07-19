@@ -1,0 +1,127 @@
+/* travel.css */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background: url('https://img.freepik.com/free-photo/pouch-map-toy-airplane-blue-background-with-space-writing-text_23-2147958180.jpg') no-repeat center center fixed;
+    background-size: cover;  
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    /* No background color to make it transparent */
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    color: black; /* Text color for visibility */
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.hero .cta-button {
+    display: inline-block;
+    background-color: skyblue;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.hero .cta-button:hover {
+    background-color: skyblue;
+}
+
+.about, .features, .destinations, .testimonials, .contact {
+    padding: 50px 0;
+    text-align: center;
+    background: none; /* Transparent background */
+    color: black; /* White text color for visibility */
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.features .container, .destinations .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feature, .destination {
+    flex: 1 1 22%;
+    margin: 20px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    background: white; /* Semi-transparent dark background for contrast */
+    color: black; /* White text color for visibility */
+}
+
+.feature img, .destination img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.feature h3, .destination h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.testimonials .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 10px;
+    background: white; /* Semi-transparent dark background for contrast */
+    color:black ; /* Whblackite text color for visibility */
+}
+
+.testimonial h3 {
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black; /* White text color for visibility */
+}
+
+.contact label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: left;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+}  
